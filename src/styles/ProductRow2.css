@@ -1,0 +1,20 @@
+.product-row2 {
+    border-radius: 5px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    border: 1px solid black;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px 0;
+}
+
+.product-row2 span:nth-child(3) {
+    display: grid;
+    justify-items: end;
+}
+
+.product-row2 span:nth-child(2) {
+    display: grid;
+    justify-items: center;
+}
